@@ -1,0 +1,12 @@
+[package]
+name = "frobbos"
+version = "0.1.0"
+authors = ["Mike MacDonald <crazymykl@gmail.com>"]
+
+[profile.release]
+panic = "abort"
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
